@@ -1,0 +1,150 @@
+:root{
+    --red: #d10d1ee8;
+    --black: #141414;
+}
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*base*/
+body {
+    background: var(--black);
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+
+}
+
+header .logo{
+    color: var(--red) ;
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #aaa;
+    margin-right: 1cm;
+}
+
+header nav a:hover{
+    color: #ffff
+}
+
+/*jogo-banner*/
+
+.jogo{
+    background: url("assets/1ed40030-2340-4395-93cb-5278e0b7ecf5.jpg");
+    height: 100%;
+    background-size: cover;
+    object-fit: fill;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.nome{
+    font-size: 40px;color: white; font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6cm;
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+}
+
+.sub{
+    font-size: 20px; color: rgb(240, 229, 229);font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1cm;
+    margin-right: 10cm;
+    margin-bottom: 1cm;
+}
+
+.button{
+    display: flex;
+}
+
+.txt{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+
+.button1{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin-left: 1cm;
+    display: flex;
+    justify-content: start;
+    margin-right: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    padding: 15px 30px;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button2{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    padding: 15px 30px;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+
+.button1:hover{
+    background-color: white;
+    color: black;
+}
+.button2:hover{
+    background-color: white;
+    color: black;
+}
+
+.button i{
+    margin-right: 8px;
+
+}
+
+/*carossel*/
+
+.box-jogo{
+    margin-top: .3cm;
+    height: 400px;
+    width: 250px;
+    display: block;
+}
+
+.txt2{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content:center ;
+    margin-top: .2cm;
+}
+
